@@ -1,0 +1,492 @@
+body {
+  background: #000000;
+}
+.navbar img {
+  width: 100%;
+  width: 80px;
+  margin-left: 50px;
+}
+.navbar .navbar-nav a {
+  color: #ffff;
+  font-size: 20px;
+  font-weight: 600;
+}
+.navbar .navbar-nav a:hover {
+    border-bottom: 2px solid #f26822;
+  /* text-decoration: underline; */
+  color: #f26822;
+}
+/* .hd_head_text h1 {
+  padding: 48px 0px;
+  font-size: 44px;
+  font-family: cinzel;
+  font-weight: 700;
+ 
+} */
+ .hd_cont_1{
+    min-height: 98vh;
+    display: flex;
+    align-items: center;
+ }
+.hd_head_text h1 {
+  padding-top: 80px;
+  color: #dbd56e;
+  background: -webkit-linear-gradient(25deg, #eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3.5rem;
+  font-weight: 600;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid;
+  animation: type 2.5s steps(90) infinite normal both,
+    cursor 1s step-end infinite;
+  position: relative;
+  background-repeat: repeat;
+  font-family: cinzel;
+  text-align: center;
+}
+
+@keyframes type {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+.hd_text_second h2 {
+  font-size: 46px;
+  font-weight: 700;
+  color: #f26822;
+  padding: 35px 0px;
+  /* font-family: cinzel; */
+}
+.right_image_section {
+  background: url(https://images.leadconnectorhq.com/image/f_webp/q_80/r_768/u_https://assets.cdn.filesafe.space/y2aAiPSnGqKw3C5BHnIo/media/6669d988b1b5321a6c75d471.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  /* height: 100%; */
+  height: 500px;
+}
+.right_image_section h2 {
+  font-size: 34px;
+  padding-top: 90px;
+  text-align: center;
+  font-family: "Hepta Slab", serif;
+}
+.right_image_section h2 span {
+  color: #f26822;
+}
+.right_image_section button {
+  margin-top: 40px;
+}
+.right_image_section .btn {
+  width: 100%;
+  width: 160px;
+  color: #f26822;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f26822;
+  color: #fff;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  font-size: 16px;
+}
+.right_image_section button:hover {
+  background-color: #070606;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  transform: translateY(-6px);
+}
+
+/* ........Grid Discovery Content........... */
+.gd-discovery_content{
+    min-height: 98vh;
+    display: flex;
+    align-items: center;
+}
+.gd-text_head {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background color */
+  border-radius: 8px; /* Add border-radius for rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+.gd-text_head h2 {
+  font-size: 40px;
+  font-weight: 600;
+  padding-top: 70px;
+  /* margin-bottom: 20px; */
+  color: #ffffff; /* Text color */
+  transition: color 0.3s ease; /* Smooth transition for text color */
+}
+.gd-text_head h2:hover {
+  color: #f26822;
+}
+.gd-text_head p {
+  padding: 20px 40px;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #ffffff; /* Text color */
+  transition: color 0.3s ease; /* Smooth transition for text color */
+}
+.gd_image_head img {
+  max-width: 100%;
+  width: 700px;
+  height: 100%;
+  height: 450px;
+  border-radius: 8px; /* Add border-radius for rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box-shadow for depth */
+  transition: transform 0.3s ease-in-out; /* Smooth transition for transform */
+}
+.gd_image_head img:hover {
+  transform: scale(1.05); /* Scale up image on hover */
+}
+
+/* ................................. */
+
+/* .ap_center_section h4 {
+  background: url(https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/y2aAiPSnGqKw3C5BHnIo/media/6659dc1cc457761ac4c96f9c.png);
+  background-position: 50%;
+  background-repeat: repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  background-attachment: fixed;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+} */
+ .ap_center_section{
+    /* padding: 55px 0px; */
+    min-height: 98vh;
+    display: flex;
+    align-items: center;
+ }
+.ap_left_content h4 {
+  padding-top: 70px;
+  color: #ffff;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+.ap_gif_section img {
+  height: 100%;
+  height: 406px;
+  padding: 10px 0px;
+  max-width: 100%;
+  width: 600px;
+  border-radius: 8px; /* Add border-radius for rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box-shadow for depth */
+  transition: transform 0.3s ease-in-out; /* Smooth transition for transform */
+}
+.ap_gif_section img:hover {
+  transform: scale(1.05); /* Scale up image on hover */
+}
+.ap_center_section .buttons {
+  text-align: center;
+  width: 100%;
+  width: 180px;
+}
+/* Button Section */
+
+.md_button {
+  background: url(https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/y2aAiPSnGqKw3C5BHnIo/media/662d60c2bd3e5b336b46a344.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  height: 400px;
+}
+.md_button .md_btn button {
+  margin-top: 12%;
+  padding: 10px 0px;
+  max-width: 100%;
+  width: 200px;
+  font-size: 20px;
+  font-weight: 600;
+  background-color:#f26822;
+  border-radius: 8px;
+  color: black;
+  border: none;
+  transition: all 0.3s ease;
+}
+.md_button .md_btn button:hover{
+    background-color: #070606;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(-6px);
+    color: #ffff;
+}
+
+/* .............Driver Section............ */
+.bd_head_sec .bd_text h2{
+    /* font-size: 36px;
+    font-weight: 700;
+    font-family: cinzel; */
+    padding-top: 80px;
+  color: #dbd56e;
+  background: -webkit-linear-gradient(25deg, #eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3.5rem;
+  font-weight: 600;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid;
+  animation: drive 2.5s steps(90) infinite normal both,
+    cursor 1s step-end infinite;
+  position: relative;
+  background-repeat: repeat;
+  font-family: cinzel;
+}
+@keyframes drive {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes cursor {
+    50% {
+      border-color: transparent;
+    }
+  }
+.bd_head_sec .ld_left_image img{
+    max-width: 100%;
+   width: 500px;
+   border-radius: 8px; /* Add border-radius for rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box-shadow for depth */
+  transition: transform 0.3s ease-in-out; 
+}
+.bd_head_sec .ld_left_image img:hover{
+    transform: scale(1.05);
+}
+
+.rd_text_content {
+   padding-top: 10px;
+}
+.rd_text_content h3{
+    padding: 10px 0px;
+}
+.ml14 {
+    font-weight: 400;
+    font-size: 2.2em;
+  }
+  
+  .ml14 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+  }
+  
+  .ml14 .line {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    transform-origin: 100% 100%;
+    bottom: 0;
+  }
+  
+  .ml14 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+.bd_head_sec button{
+    margin: 20px 0px;
+    width: 100%;
+    width: 170px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color:#f26822;
+    border-radius: 8px;
+    color: black;
+    border: none;
+    transition: all 0.3s ease;
+}
+.bd_head_sec button:hover{
+    background-color:  #ffff;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(-6px);
+    color: #070606;
+}
+
+/* ................Grid Tech Team Section................. */
+
+.gt_head_text h2{
+    font-size: 44px;
+    font-weight: 800;
+    padding-bottom: 20px ;
+    font-family: cinzel;
+}
+.gt_head_text img{
+    width: 100%;
+    height: 100%;
+    height:600px;
+    border-radius: 8px; /* Add border-radius for rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box-shadow for depth */
+  transition: transform 0.3s ease-in-out;
+}
+.gt_head_text img:hover{
+    transform: scale(1.05);
+}
+.grid_section .button_4 .btn_4{
+    margin: 20px 0px;
+    width: 100%;
+    width: 170px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color:#f26822;
+    color: black;
+    border: none;
+    transition: all 0.3s ease;
+}
+.grid_section .button_4 .btn_4:hover{
+    background-color:  #ffff;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(-6px);
+    color: #070606;
+}
+/* .................Frequently Ask Questions.................... */
+.container{ 
+    width: 100%;
+    margin: auto;
+    min-height: 100vh;
+    padding: 2rem;
+    display: grid;
+    place-items: center;
+    
+}
+
+.accordion__wrapper {
+    background-color: #ffff;
+    box-shadow: 0px 60px 56px -12px rgba(9, 40, 163, 0.05); ;
+    border-radius: 2.5rem;
+    width: 100%;
+    max-width: 60rem;
+    padding: 5rem;
+}
+
+.accordion__title{
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.accordion {
+    border-bottom: 0.1rem solid #f26822;
+    padding-bottom: 1rem;
+    margin-bottom: 3rem;
+}
+
+.accordion__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+} 
+
+.accordion__icon {
+    background-color: #f26822;
+    width: 2.2rem;
+    height: 2.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: black;
+    flex-shrink: 0;
+}
+
+.accordion__question{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+  
+.accordion__answer{
+    padding: 0.6rem 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #f26822;
+}
+
+.accordion__content{
+    overflow: hidden;
+    height: 0;
+    transition: all 0.3 ease-in;
+}
+
+@media screen and (min-width: 580px) {
+    .accordion__wrapper {
+        padding: 5rem 8rem;
+    }
+}
+ /* Map Section */
+.mp_section{
+    background-color: #0f1411;
+    padding: 0px 0px;
+}
+.mp_section .rt_hd_text h3{
+    padding-top: 70px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.mp_section .rt_hd_text h3:hover{
+    color: #f26822;
+}
+.mp_section .rt_hd_text p i{
+    padding: 8px;
+}
+.mp_section .rt_hd_text p{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 2;
+}
+.mp_section .rt-hd_map iframe{
+    padding: 20px 0px;
+    width: 100%;
+    width: 600px;
+    height: 400px;
+}
+/* footer section */
+.ld_last_head img{
+    width: 100%;
+    width: 150px;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.ld_last_head h6{
+    color: #f26822;
+    padding: 5px 60px;
+}
+.icon_list li{
+    margin-top: 25px;
+    padding: 18px;
+    list-style-type: none;
+    font-size: 33px;
+    color: #f26822;
+}
